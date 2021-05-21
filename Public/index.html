@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="icon" href="contact/chat.ico" />
+    <link href="index.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="head">Let's chat</div>
+    </div>
+    <div id="container">
+      <div id="chat-field">
+        <div id="output"></div>
+        <div id="typing"></div>
+      </div>
+      <input id="user_name" type="text" placeholder="Enter name" />
+      <input id="message" type="text"  placeholder="Message" />
+      <br />
+      <button id="send">Send</button>
+    </div>
+    <footer id="footer">&copy; Copyright 2021 | It's free to use<br /></footer>
+    <div id="contact">
+      <a
+        href="https://www.linkedin.com/in/sagar-gnawali-41b500190"
+        target="_blank"
+        ><img src="./contact//linkedin.svg" alt="image.svg" title="linkedin"
+      /></a>
+      &nbsp;
+      <a href="https://twitter.com/sagar_gnawali" target="_blank">
+        <img src="./contact/twitter.svg" alt="image.svg" title="twitter" />
+      </a>
+      <a href="https://www.instagram.com/gnawalisagar/" target="_blank"
+        ><img
+          src="./contact/instagram.svg"
+          alt="image.svg"
+          title="instagram" /></a
+      >&nbsp;
+      <a href="https://www.facebook.com/sagar.gyawali.566" target="_blank">
+        <img src="./contact//facebook.svg" alt="image.svg" title="facebook" />
+      </a>
+    </div>
+    <script src="./chat.js"></script>
+  </body>
+</html>
