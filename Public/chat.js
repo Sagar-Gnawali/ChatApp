@@ -16,7 +16,6 @@ data.message.addEventListener('keypress', () => {
     socket.emit('typing', data.user_name.value);
 })
 data.btn.addEventListener('click', () => {
-    // data.preventDefault();
     socket.emit('chat', {
         message: data.message.value,
         user_name: data.user_name.value
